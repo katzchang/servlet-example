@@ -26,23 +26,17 @@
         <scope>provided</scope>
     </dependency>
 
-    <!-- https://mvnrepository.com/artifact/io.opentelemetry/opentelemetry-api -->
     <dependency>
       <groupId>io.opentelemetry</groupId>
       <artifactId>opentelemetry-api</artifactId>
       <version>1.19.0</version>
     </dependency>
-<dependency>
-  <groupId>io.opentelemetry</groupId>
-  <artifactId>opentelemetry-context</artifactId>
-  <version>1.19.0</version>
-</dependency>
-<!-- https://mvnrepository.com/artifact/commons-codec/commons-codec -->
-<dependency>
-    <groupId>commons-codec</groupId>
-    <artifactId>commons-codec</artifactId>
-    <version>1.15</version>
-</dependency>
+
+    <dependency>
+      <groupId>io.opentelemetry</groupId>
+      <artifactId>opentelemetry-context</artifactId>
+      <version>1.19.0</version>
+    </dependency>
 
   </dependencies>
 
