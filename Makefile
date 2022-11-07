@@ -12,3 +12,6 @@ jetty-run: splunk-otel-javaagent.jar
 clean:
 	rm splunk-otel-javaagent.jar
 	rm -rf target
+
+curl:
+	curl -v http://localhost:8080/my-servlet
