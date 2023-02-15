@@ -9,7 +9,7 @@
 
 2. 次のコマンドで、8080ポートでJettyが起動します: 
 ```shellscript
-make jetty-rum
+make jetty-run
 ```
 
 3. http://localhost:8080/my-servlet を(Jettyがローカルホストではない場合は適切なIPアドレス等に変えて)ブラウザーで開いて、なんどかリロードして、トレースの様子を見てみましょう。
